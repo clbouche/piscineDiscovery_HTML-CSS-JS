@@ -65,5 +65,5 @@ nav ul {
 }
 
 .rolling-menu:hover > .menu {
-	animation: apparitionMenu 1s forwards;
+	animation: apparitionMenu 3s forwards;
   }

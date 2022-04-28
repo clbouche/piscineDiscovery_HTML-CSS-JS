@@ -7,14 +7,49 @@
 	min-height: 100vh;
 }
 
+.text h3 {
+	color: white;
+	vertical-align:middle;
+	line-height:100vh;
+	text-align: center;  
+	font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
 
 .separator {
 	background-color: black;
-	color:grey;
+	cursor:pointer;
+	position: relative;
+	display: block;
+}
+
+.animated-text {
 	font-family:Georgia, 'Times New Roman', Times, serif;
 	text-align: center;
-	font-size: 44px;
-	height: 50px;
+	font-size: 20px;
+	position: absolute;
+	top: 0; right: 0;
+	bottom: 0; left: 0;
+	width: 100vw;
+	height: 100px; 
+	background-color: black;
+	opacity: 0;
+	-webkit-transition: opacity 0.6s;
+	-moz-transition: opacity 0.6s;
+	transition: opacity 0.6s;
+	vertical-align:middle;
+}
+
+.animated-text:hover{
+	opacity: 1;      
+}
+
+.animated-text h1{
+	color: grey;
+	display: inline-table;
+	vertical-align:middle;
+	line-height:100%;            
 }
 
 .second-image {
@@ -24,4 +59,10 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	min-height: 100vh;
+}
+
+.copyright {
+	font-family: monospace;
+	font-size: 10px;
+	float: right;
 }
