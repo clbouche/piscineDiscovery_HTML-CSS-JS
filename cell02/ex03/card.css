@@ -1,5 +1,7 @@
 body {
-    background-color: rgb(245, 219, 187);
+    background: linear-gradient(rgb(253, 252, 238), rgb(120, 160, 207));
+	width: 100vw;
+	height: 100vh;
 }
 
 .card {
@@ -8,13 +10,9 @@ body {
 	margin: auto;
 	text-align: center;
 	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;	
-}
-
-h1 {
-    color: rgb(224, 166, 94);
-    text-align: center;
-    font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	color:rgb(240, 108, 103);
+	background-color: rgb(245, 211, 134);
 }
 
 .login {
@@ -27,7 +25,8 @@ h1 {
 
 button {
 	border:0;
-	background-color: rgb(231, 193, 146);
+	background-color: rgb(245, 220, 164);
+	color:rgb(240, 108, 103);
 	font-size: 30px;
 	font-family: 'Courier New', Courier, monospace;
 	display: inline-block;
