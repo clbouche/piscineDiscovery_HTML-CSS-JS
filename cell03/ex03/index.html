@@ -1,0 +1,25 @@
+<!-- https://www.w3schools.com/howto/howto_js_todolist.asp -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="todo.js">
+	<title>TO DO</title>
+</head>
+<body>
+	<h1>Ma TO DO list : </h1>
+	<div id="ft_list">
+
+	<button onclick=ft_generate_todo()>New</button>
+	</div>
+</body>
+
+<script>
+	function ft_generate_todo () {
+		var todo = window.prompt("à faire :");
+		document.body.createElement("li");
+	}
+</script>
+
+</html>
