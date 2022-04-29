@@ -1,0 +1,31 @@
+body {
+	background: linear-gradient(rgb(252, 255, 231), rgb(222, 160, 87));
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 100vh;
+}
+
+h1{
+	color:rgb(206, 148, 97);
+	font-family: 'Courier New', Courier, monospace;
+	text-align: center;
+}
+
+button {
+	background-color: rgb(206, 148, 97);
+	width: 200px;
+	height: 50px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	border:2px solid rgb(224, 216, 176);
+	border-radius: 12px;
+	color: rgb(252, 255, 231);
+	display: block;
+	margin : auto;
+}
+
+button:hover {
+	color: burlywood;
+	border:2px solid rgb(252, 255, 231);
+}
+
